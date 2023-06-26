@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.main-con {
+  height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-con {
+  height: 82vh;
+  width: 30vw;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #a35200;
+}
+.para {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #334155;
+}
+.result-Img {
+  height: 35vh;
+  width: 17vw;
+}
+.button {
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  background-color: #f9d423;
+  color: #e2a139;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.result-con {
+  color: #475569;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.result {
+  margin: 16px;
+}
